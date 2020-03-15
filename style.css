@@ -8,15 +8,16 @@
 
 body {
     background-color: #f5f5f5;
-    color: #fff;
+    color: #333;
     font-family: 'Roboto', sans-serif;
 }
 
 .container {
-    width: 90%;
+    width: 70%;
     margin: auto;
 }
 
+/* Header */
 header {
     display: flex;
     width: 100%;
@@ -61,4 +62,146 @@ header .links li:hover {
 
 .icon {
     margin-right: 10px;
+}
+
+.text-left {
+    text-align: left;
+}
+
+/* Signs Section */
+section#signs {
+    width: 100%;
+    height: 90vh;
+    margin: 20px auto;
+}
+
+section#signs .sign-in {
+    display: flex;
+    width: 800px;
+    margin: auto;
+    height: 500px;
+    background-color: #ededed;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+section#signs .sign-in h2 {
+    margin-bottom: 20px;
+}
+
+
+section#signs .sign-in input {
+    width: 350px;
+    padding: 10px 20px;
+    font-size: 15px;
+    margin-bottom: 5px;
+    border: 1px solid #66a4fe;
+    border-radius: 2px;
+    background-color: transparent;
+}
+
+section#signs .sign-in input::placeholder {
+    color: #004E98;
+}
+
+section#signs .sign-in input:focus {
+    outline-color: #004E98;
+}
+
+section#signs .sign-in .checkbox {
+    margin: 10px 0;
+    font-size: 0.9rem;
+    color: #444;
+}
+
+section#signs .sign-in input[type=checkbox] {
+    width: 20px;
+    margin-right: 5px;
+}
+
+section#signs .sign-in button {
+    margin-top: 5px;
+    padding: 12px 32px;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+}
+section#signs .sign-in button[type=submit] {
+    background-color: #004E98;
+    color: #fff;
+}
+section#signs .sign-in button[type=submit]:hover {
+    background-color: #003d87;
+}
+section#signs .sign-in button[type=reset] {
+    background-color: #555;
+    color: #fff;
+}
+section#signs .sign-in button[type=reset]:hover {
+    background-color: #444;
+}
+
+section#signs hr {
+    width: 90%;
+    margin: 40px auto;
+    border: none;
+    border-top: 2px solid #ececec;
+}
+
+section#signs .sign-up {
+    display: flex;
+    width: 800px;
+    margin: auto;
+    height: 1000px;
+    background-color: #ededed;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+section#signs .sign-up h2 {
+    margin-bottom: 45px;
+}
+
+section#signs .sign-up input, section#signs .sign-up textarea {
+    width: 500px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border: 1px solid #66a4fe;
+    border-radius: 2px;
+    background-color: transparent;
+    resize: none;
+}
+section#signs .sign-up input:focus, section#signs .sign-up textarea:focus {
+    outline-color: #004E98;
+}
+section#signs .sign-up input::placeholder, section#signs .sign-up textarea::placeholder, section#signs .sign-up label {
+    color: #004E98;
+}
+
+section#signs .sign-up button {
+    margin-top: 5px;
+    padding: 15px 35px;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+}
+section#signs .sign-up button[type=submit] {
+    background-color: #004E98;
+    color: #fff;
+}
+section#signs .sign-up button[type=submit]:hover {
+    background-color: #003d87;
+}
+section#signs .sign-up button[type=reset] {
+    background-color: #555;
+    color: #fff;
+}
+section#signs .sign-up button[type=reset]:hover {
+    background-color: #444;
 }

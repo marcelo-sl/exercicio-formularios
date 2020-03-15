@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Exercicio | Formulários</title>
 </head>
+
 <body>
     <header>
         <div class="logo">
@@ -23,6 +25,53 @@
         </ul>
     </header>
     <div class="container">
+
+        <!-- Sign in and Sign Up Section -->
+        <section id="signs">
+            <div class="sign-in">
+                <form action="#">
+                    <h2>Login</h2>
+                    <input type="email" placeholder="E-mail" required><br>
+                    <input type="password" placeholder="Senha" required><br>
+                    <div class="checkbox text-left">
+                        <input type="checkbox" name="remember" id="remember"><label for="remember">Lembrar
+                            credenciais</label><br>
+                    </div>
+                    <div class="text-left">
+                        <button type="submit">Entrar</button>
+                        <button type="reset">Limpar</button>
+                    </div>
+                </form>
+            </div>
+            <hr>
+            <div class="sign-up">
+                <form action="#">
+                    <h2>Cadastre-se</h2>
+                    <input type="text" name="nome" placeholder="Nome" required><br>
+                    <input type="text" name="cpf" placeholder="CPF" required><br>
+                    <div class="text-left">
+                        <label for="nascimento">Nascimento:</label><br>
+                        <input id="nascimento" type="date" required>
+                    </div>
+                    <input type="text" name="endereco" placeholder="Endereço" required><br>
+                    <input type="number" name="numero" placeholder="Número" required><br>
+                    <input type="text" name="bairro" placeholder="Bairro" required><br>
+                    <input type="text" name="cidade" placeholder="Cidade" required><br>
+                    <input type="text" name="cep" placeholder="CEP" required><br>
+                    <input type="tel" name="telefone" placeholder="Telefone" required><br>
+                    <textarea name="observacoes" placeholder="Observações"></textarea><br>
+                    <input type="text" name="email" placeholder="E-mail" required><br>
+                    <input type="password" name="senha" placeholder="Senha" required><br>
+                    <input type="password" name="confirmacao-senha" placeholder="Confirmar Senha" required><br>
+                    <div class="text-left">
+                        <button type="submit">Cadastrar</button>
+                        <button type="reset">Limpar</button>
+                    </div>
+
+                </form>
+            </div>
+        </section>
     </div>
 </body>
+
 </html>
