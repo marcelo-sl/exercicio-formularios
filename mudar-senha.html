@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Exercicio | Mudar senha</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <h2><i class="fa fa-file-text icon"></i>Formulários</h2>
+            </a>
+        </div>
+        <ul class="links">
+            <li><a href="index.html"><i class="fa fa-home icon"></i>Início</a></li>
+            <li><a href="sobre.html"><i class="fa fa-info icon"></i>Sobre</a></li>
+            <li><a href="contato.html"><i class="fa fa-envelope icon"></i>Contato</a></li>
+            <hr>
+            <li class="logout"><a href="index.html"><i class="fa fa-sign-in icon"></i>Sair</a></li>
+        </ul>
+    </header>
+    <div class="container">
+
+        <!-- Change password section -->
+        <section id="change-password">
+            <div class="change-password">
+                <form action="perfil.html">
+                    <h2>Mudança de senha</h2>
+                    <input type="password" placeholder="Senha atual" required><br>
+                    <input type="password" placeholder="Nova senha" required><br>
+                    <input type="password" placeholder="Confirme a senha" required><br>
+                    <div class="text-left">
+                        <button type="submit"><i class="fa fa-check icon"></i>Confirmar</button>
+                        <a href="perfil.html" class="btn-cancel"><i class="fa fa-arrow-left icon"></i>Cancelar</a>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
